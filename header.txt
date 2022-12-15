@@ -1,0 +1,6 @@
+! Title: Thai Ads Section Blocker
+! Description: Thai ads filters
+! Link: https://github.com/kaozaza2/thai-ads-section-blocker
+! Download: https://kaozaza2.github.io/thai-ads-section-blocker/subscriptions.txt
+!
+!-------------- ads_filters --------------

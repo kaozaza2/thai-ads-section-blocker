@@ -1,0 +1,15 @@
+{
+  "name": "thai-ads-section-blocker",
+  "description": "Custom ads filter list for me.",
+  "homepage": "kaozaza2.github.io/thai-ads-section-blocker",
+  "author": "Kittisak Phiri <kittisakphiri@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+      "build": "node compile.js",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d template"
+  },
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}

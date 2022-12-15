@@ -1,0 +1,6 @@
+!------ doujinza.com ------
+doujinza.com###ads_04
+doujinza.com###ads_03
+doujinza.com###ads_02
+doujinza.com###ads_01
+doujinza.com##div.text-center>.col-12
