@@ -24,6 +24,7 @@ doujinza.com###ads_04
 doujinza.com###ads_03
 doujinza.com###ads_02
 doujinza.com###ads_01
+doujinza.com###custom_html-5
 doujinza.com##div.text-center>.col-12
 !------ filters/happy-manga.com.txt ------
 !------ happy-manga.com ------
