@@ -1,18 +1,18 @@
 const fs = require('fs');
 
-fs.readdir('filters', (err, files) => {
-    let subscriptions = "";
+let subscriptions = "";
 
-    fs.readFile('header.txt', (er, data) => {
-        subscriptions += data;
-    });
+const header = fs.readFileSync('header.txt', {encoding:'utf8', flag:'r'});
 
-    files.forEach(file => {
-        fs.readFile(file, (er, data) => {
-            subscriptions += "!------ filters/" + file + " ------";
-            subscriptions += data;
-        });
-    });
+subscriptions += header;
 
-    fs.writeFile('template/subscriptions.txt', subscriptions, err => console.log(err));
-});
+const files = fs.readdirSync('filters');
+
+for (const file in files) {
+    const data = fs.readFileSync('header.txt', {encoding:'utf8', flag:'r'});
+
+    subscriptions += "!------ filters/" + file + " ------";
+    subscriptions += data;
+}
+
+fs.writeFileSync('template/subscriptions.txt', subscriptions);
