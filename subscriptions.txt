@@ -4,37 +4,44 @@
 ! Download: https://kaozaza2.github.io/thai-ads-section-blocker/subscriptions.txt
 !
 !-------------- ads_filters --------------
-!------ filters/animekimi.com.txt ------!------ animekimi.com ------
+!------ filters/animekimi.com.txt ------
+!------ animekimi.com ------
 animekimi.com###animekimiads1
 animekimi.com###animekimiads2
 animekimi.com###animekimiads3
 animekimi.com###animekimiads4
 animekimi.com###animekimiads5
-!------ filters/cats-translator.com.txt ------!------ cats-translator.com ------
+!------ filters/cats-translator.com.txt ------
+!------ cats-translator.com ------
 cats-translator.com###bottom_center_ads
 cats-translator.com###custom_html-34
 cats-translator.com###advanced_floating_content_8358
 cats-translator.com###advanced_floating_content_8364
 cats-translator.com###custom_html-33
-!------ filters/doujinza.com.txt ------!------ doujinza.com ------
+!------ filters/doujinza.com.txt ------
+!------ doujinza.com ------
 doujinza.com###ads_04
 doujinza.com###ads_03
 doujinza.com###ads_02
 doujinza.com###ads_01
 doujinza.com##div.text-center>.col-12
-!------ filters/happy-manga.com.txt ------!------ happy-manga.com ------
+!------ filters/happy-manga.com.txt ------
+!------ happy-manga.com ------
 happy-manga.com###custom_html-30
-!------ filters/opuree.com.txt ------!------ opuree.com ------
+!------ filters/opuree.com.txt ------
+!------ opuree.com ------
 opuree.com##.text-center.overflow-hidden.box-shadow.rounded.bg-white.p-3.my-3
 opuree.com##.img-fluid
 opuree.com##a[rel="nofollow external"]
-!------ filters/www.niceoppai.net.txt ------!------ www.niceoppai.net ------
+!------ filters/www.niceoppai.net.txt ------
+!------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
 www.niceoppai.net###text-90
 www.niceoppai.net###sct_top_banner
 www.niceoppai.net##.mng_rdr.wpm_pag>center
 www.niceoppai.net###sct_footer_banner
-!------ filters/www.wasabith.com.txt ------!------ www.wasabith.com ------
+!------ filters/www.wasabith.com.txt ------
+!------ www.wasabith.com ------
 www.wasabith.com###cat300_ads2
 www.wasabith.com###cat300_ads3
 www.wasabith.com###cat300_ads1
