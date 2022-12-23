@@ -1,5 +1,6 @@
 ! 2022-12-22 https://www.anime-masters.com
 www.anime-masters.com##div#slider-b.banner-close > p
+www.anime-masters.com##div.banner-close
 www.anime-masters.com##center:nth-of-type(4)
 www.anime-masters.com##center:nth-of-type(2)
 www.anime-masters.com##.row > .center_lnwphp
