@@ -4,6 +4,20 @@
 ! Download: https://kaozaza2.github.io/thai-ads-section-blocker/subscriptions.txt
 !
 !-------------- ads_filters --------------
+!------ filters/alpha-hen.com.txt ------
+! 2022-12-22 https://www.alpha-hen.com
+www.alpha-hen.com###custom_html-5
+www.alpha-hen.com###custom_html-7
+www.alpha-hen.com###custom_html-8
+!------ filters/anime-kimuchi.com.txt ------
+! 2022-12-22 https://anime-kimuchi.com
+anime-kimuchi.com##.b-ads
+!------ filters/anime-masters.com.txt ------
+! 2022-12-22 https://www.anime-masters.com
+www.anime-masters.com##div#slider-b.banner-close > p
+www.anime-masters.com##center:nth-of-type(4)
+www.anime-masters.com##center:nth-of-type(2)
+www.anime-masters.com##.row > .center_lnwphp
 !------ filters/animekimi.com.txt ------
 !------ animekimi.com ------
 animekimi.com###animekimiads1
@@ -34,6 +48,9 @@ happy-manga.com###custom_html-30
 opuree.com##.text-center.overflow-hidden.box-shadow.rounded.bg-white.p-3.my-3
 opuree.com##.img-fluid
 opuree.com##a[rel="nofollow external"]
+!------ filters/oremanga.net.txt ------
+! 2022-12-02 https://www.oremanga.net
+www.oremanga.net##.header-ads-section
 !------ filters/www.niceoppai.net.txt ------
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
