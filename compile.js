@@ -5,6 +5,7 @@ let subscriptions = "";
 const header = fs.readFileSync('header.txt', {encoding:'utf8', flag:'r'});
 
 subscriptions += header;
+subscriptions += "\n";
 
 const files = fs.readdirSync('filters');
 
@@ -13,6 +14,8 @@ files.forEach(file => {
 
     subscriptions += "!------ filters/" + file + " ------\n";
     subscriptions += data;
+    subscriptions += "\n";
 });
 
 fs.writeFileSync('template/subscriptions.txt', subscriptions);
+fs.unlinkSync('template/.gitkeep');
