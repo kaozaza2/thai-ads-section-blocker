@@ -65,6 +65,13 @@ www.037hdmovie.com###content>div.leftC>div:has(>div[style="text-align: center;"]
 www.037hdmovie.com##.filmborder>.filmcontent>div[style="text-align: center;"]
 www.037hdmovie.com###sidebar>div[style="text-align: center;"]
 www.037hdmovie.com###sidebar>div:has(>div>div>div>a)
+!------ filters/www.i-moviehd.com.txt ------
+! 2022-12-28 https://www.i-moviehd.com
+www.i-moviehd.com###banner_top
+www.i-moviehd.com###banner_mid
+www.i-moviehd.com###banner_low
+www.i-moviehd.com###ads_fox_bottom
+www.i-moviehd.com###banner-left
 !------ filters/www.niceoppai.net.txt ------
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
