@@ -1,0 +1,8 @@
+! 2022-12-28 https://www.movie2fin.com
+www.movie2fin.com##.notice>div
+www.movie2fin.com##.notice>a
+www.movie2fin.com##.sidebar:has(>a[target="_new"])
+www.movie2fin.com##.box:has(>a[target="_new"])
+www.movie2fin.com###show_ads_c1
+www.movie2fin.com###ccc-banner-left
+www.movie2fin.com###aaa-banner-left
