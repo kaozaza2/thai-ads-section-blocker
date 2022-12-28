@@ -44,6 +44,11 @@ doujinza.com##div.text-center>.col-12
 !------ filters/happy-manga.com.txt ------
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
+!------ filters/movieshdfree.com.txt ------
+! 2022-12-28 https://movieshdfree.com
+movieshdfree.com##.ad
+movieshdfree.com##.ad-float
+movieshdfree.com##a[target="_blank"]
 !------ filters/opuree.com.txt ------
 !------ opuree.com ------
 opuree.com##.text-center.overflow-hidden.box-shadow.rounded.bg-white.p-3.my-3
