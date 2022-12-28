@@ -65,3 +65,7 @@ www.wasabith.com###cat300_ads2
 www.wasabith.com###cat300_ads3
 www.wasabith.com###cat300_ads1
 www.wasabith.com##.mt-2.text-center.col-md-12
+!------ filters/หนังออนไลน์.com.txt ------
+! 2022-12-28 https://xn--72c9aba3d6aqa7a3pmd.com
+xn--72c9aba3d6aqa7a3pmd.com##a[rel="nofollow"]
+xn--72c9aba3d6aqa7a3pmd.com##center
