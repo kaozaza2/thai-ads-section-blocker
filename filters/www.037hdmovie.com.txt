@@ -1,0 +1,7 @@
+! 2022-12-28 https://www.037hdmovie.com
+www.037hdmovie.com###banner-left
+www.037hdmovie.com###ads_fox_bottom
+www.037hdmovie.com###content>div.leftC>div:has(>div[style="text-align: center;"])
+www.037hdmovie.com##.filmborder>.filmcontent>div[style="text-align: center;"]
+www.037hdmovie.com###sidebar>div[style="text-align: center;"]
+www.037hdmovie.com###sidebar>div:has(>div>div>div>a)
