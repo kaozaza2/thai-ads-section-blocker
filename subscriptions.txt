@@ -23,6 +23,11 @@ www.anime-masters.com##center:nth-of-type(4)
 www.anime-masters.com##center:nth-of-type(2)
 www.anime-masters.com##.row > .center_lnwphp
 
+!------ filters/animehayai.net.txt ------
+animehayai.net##.col-12
+animehayai.net##.panel-body > .bottom-2x.text-center
+animehayai.net##.banner-close.message
+
 !------ filters/animekimi.com.txt ------
 !------ animekimi.com ------
 animekimi.com###animekimiads1
