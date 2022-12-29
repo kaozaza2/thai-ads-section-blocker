@@ -1,0 +1,6 @@
+www.movie678.com##.notice>div
+www.movie678.com##.notice>a
+www.movie678.com##div:has(>a[target="_new"]).box
+www.movie678.com###aaa-banner-left
+www.movie678.com###ccc-banner-left
+www.movie678.com###show_ads_c1
