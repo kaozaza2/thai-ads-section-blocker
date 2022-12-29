@@ -4,14 +4,17 @@
 ! Download: https://kaozaza2.github.io/thai-ads-section-blocker/subscriptions.txt
 !
 !-------------- ads_filters --------------
+
 !------ filters/alpha-hen.com.txt ------
 ! 2022-12-22 https://www.alpha-hen.com
 www.alpha-hen.com###custom_html-5
 www.alpha-hen.com###custom_html-7
 www.alpha-hen.com###custom_html-8
+
 !------ filters/anime-kimuchi.com.txt ------
 ! 2022-12-22 https://anime-kimuchi.com
 anime-kimuchi.com##.b-ads
+
 !------ filters/anime-masters.com.txt ------
 ! 2022-12-22 https://www.anime-masters.com
 www.anime-masters.com##div#slider-b.banner-close > p
@@ -19,6 +22,7 @@ www.anime-masters.com##div.banner-close
 www.anime-masters.com##center:nth-of-type(4)
 www.anime-masters.com##center:nth-of-type(2)
 www.anime-masters.com##.row > .center_lnwphp
+
 !------ filters/animekimi.com.txt ------
 !------ animekimi.com ------
 animekimi.com###animekimiads1
@@ -26,6 +30,7 @@ animekimi.com###animekimiads2
 animekimi.com###animekimiads3
 animekimi.com###animekimiads4
 animekimi.com###animekimiads5
+
 !------ filters/cats-translator.com.txt ------
 !------ cats-translator.com ------
 cats-translator.com###bottom_center_ads
@@ -33,6 +38,7 @@ cats-translator.com###custom_html-34
 cats-translator.com###advanced_floating_content_8358
 cats-translator.com###advanced_floating_content_8364
 cats-translator.com###custom_html-33
+
 !------ filters/doujinza.com.txt ------
 !------ doujinza.com ------
 doujinza.com###ads_04
@@ -41,22 +47,38 @@ doujinza.com###ads_02
 doujinza.com###ads_01
 doujinza.com###custom_html-5
 doujinza.com##div.text-center>.col-12
+
 !------ filters/happy-manga.com.txt ------
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
+
+!------ filters/movie44.com.txt ------
+movie44.com##.section-top
+movie44.com###light3
+movie44.com###light2
+movie44.com###light1
+movie44.com##.box>center:has(>a)
+movie44.com##.box>div>center:has(>a)
+movie44.com##div[ex-cdn-popup]
+movie44.com###videoWrapper
+||movie44.com/wp-content/cache/min/1/wp-content/themes/movie44/js/script_movie.js
+
 !------ filters/movieshdfree.com.txt ------
 ! 2022-12-28 https://movieshdfree.com
 movieshdfree.com##.ad
 movieshdfree.com##.ad-float
 movieshdfree.com##a[target="_blank"]
+
 !------ filters/opuree.com.txt ------
 !------ opuree.com ------
 opuree.com##.text-center.overflow-hidden.box-shadow.rounded.bg-white.p-3.my-3
 opuree.com##.img-fluid
 opuree.com##a[rel="nofollow external"]
+
 !------ filters/oremanga.net.txt ------
 ! 2022-12-02 https://www.oremanga.net
 www.oremanga.net##.header-ads-section
+
 !------ filters/www.037hdmovie.com.txt ------
 ! 2022-12-28 https://www.037hdmovie.com
 www.037hdmovie.com###banner-left
@@ -65,6 +87,7 @@ www.037hdmovie.com###content>div.leftC>div:has(>div[style="text-align: center;"]
 www.037hdmovie.com##.filmborder>.filmcontent>div[style="text-align: center;"]
 www.037hdmovie.com###sidebar>div[style="text-align: center;"]
 www.037hdmovie.com###sidebar>div:has(>div>div>div>a)
+
 !------ filters/www.i-moviehd.com.txt ------
 ! 2022-12-28 https://www.i-moviehd.com
 www.i-moviehd.com###banner_top
@@ -72,6 +95,7 @@ www.i-moviehd.com###banner_mid
 www.i-moviehd.com###banner_low
 www.i-moviehd.com###ads_fox_bottom
 www.i-moviehd.com###banner-left
+
 !------ filters/www.movie2fin.com.txt ------
 ! 2022-12-28 https://www.movie2fin.com
 www.movie2fin.com##.notice>div
@@ -81,6 +105,7 @@ www.movie2fin.com##.box:has(>a[target="_new"])
 www.movie2fin.com###show_ads_c1
 www.movie2fin.com###ccc-banner-left
 www.movie2fin.com###aaa-banner-left
+
 !------ filters/www.niceoppai.net.txt ------
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
@@ -88,13 +113,16 @@ www.niceoppai.net###text-90
 www.niceoppai.net###sct_top_banner
 www.niceoppai.net##.mng_rdr.wpm_pag>center
 www.niceoppai.net###sct_footer_banner
+
 !------ filters/www.wasabith.com.txt ------
 !------ www.wasabith.com ------
 www.wasabith.com###cat300_ads2
 www.wasabith.com###cat300_ads3
 www.wasabith.com###cat300_ads1
 www.wasabith.com##.mt-2.text-center.col-md-12
+
 !------ filters/หนังออนไลน์.com.txt ------
 ! 2022-12-28 https://xn--72c9aba3d6aqa7a3pmd.com
 xn--72c9aba3d6aqa7a3pmd.com##a[rel="nofollow"]
 xn--72c9aba3d6aqa7a3pmd.com##center
+
