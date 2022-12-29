@@ -1,0 +1,3 @@
+animehayai.net##.col-12
+animehayai.net##.panel-body > .bottom-2x.text-center
+animehayai.net##.banner-close.message
