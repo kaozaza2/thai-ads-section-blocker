@@ -111,6 +111,14 @@ www.movie2fin.com###show_ads_c1
 www.movie2fin.com###ccc-banner-left
 www.movie2fin.com###aaa-banner-left
 
+!------ filters/www.movie678.com.txt ------
+www.movie678.com##.notice>div
+www.movie678.com##.notice>a
+www.movie678.com##div:has(>a[target="_new"]).box
+www.movie678.com###aaa-banner-left
+www.movie678.com###ccc-banner-left
+www.movie678.com###show_ads_c1
+
 !------ filters/www.niceoppai.net.txt ------
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
