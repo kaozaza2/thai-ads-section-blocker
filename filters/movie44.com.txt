@@ -1,0 +1,9 @@
+movie44.com##.section-top
+movie44.com###light3
+movie44.com###light2
+movie44.com###light1
+movie44.com##.box>center:has(>a)
+movie44.com##.box>div>center:has(>a)
+movie44.com##div[ex-cdn-popup]
+movie44.com###videoWrapper
+||movie44.com/wp-content/cache/min/1/wp-content/themes/movie44/js/script_movie.js
