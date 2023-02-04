@@ -127,6 +127,9 @@ www.niceoppai.net###sct_top_banner
 www.niceoppai.net##.mng_rdr.wpm_pag>center
 www.niceoppai.net###sct_footer_banner
 
+!------ filters/www.thaimanga.net.txt ------
+www.thaimanga.net##div.ads
+
 !------ filters/www.wasabith.com.txt ------
 !------ www.wasabith.com ------
 www.wasabith.com###cat300_ads2
