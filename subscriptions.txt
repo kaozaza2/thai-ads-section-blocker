@@ -5,6 +5,10 @@
 !
 !-------------- ads_filters --------------
 
+!------ filters/24-hd.com.txt ------
+www.24-hd.com##.adcen
+www.24-hd.com##.ad
+
 !------ filters/alpha-hen.com.txt ------
 ! 2022-12-22 https://www.alpha-hen.com
 www.alpha-hen.com###custom_html-5
