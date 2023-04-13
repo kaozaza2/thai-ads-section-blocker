@@ -8,6 +8,8 @@
 !------ filters/24-hd.com.txt ------
 www.24-hd.com##.adcen
 www.24-hd.com##.ad
+www.24-hd.com##.adhl
+www.24-hd.com##.adl
 
 !------ filters/alpha-hen.com.txt ------
 ! 2022-12-22 https://www.alpha-hen.com
