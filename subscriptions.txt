@@ -90,6 +90,9 @@ opuree.com##a[rel="nofollow external"]
 ! 2022-12-02 https://www.oremanga.net
 www.oremanga.net##.header-ads-section
 
+!------ filters/rawkuma.com.txt ------
+||*$script,domain=amplitudewassnap.com|wz.bergallgenion.com
+
 !------ filters/www.037hdmovie.com.txt ------
 ! 2022-12-28 https://www.037hdmovie.com
 www.037hdmovie.com###banner-left
