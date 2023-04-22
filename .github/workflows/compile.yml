@@ -3,13 +3,11 @@ on:
     branches:
       - main
     paths:
-      - 'filters/**'
-
-permissions:
-  contents: write
+      - '**'
+      - '!filters/**'
 
 jobs:
-  deploy:
+  compile:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,8 +23,3 @@ jobs:
         run: |
           yarn install
           yarn run build
-
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4.4.1
-        with:
-          folder: template
