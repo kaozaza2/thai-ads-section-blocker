@@ -23,3 +23,9 @@ jobs:
         run: |
           yarn install
           yarn run build
+
+      - name: Archive subscriptions file
+        uses: actions/upload-artifact@v3
+        with:
+          name: subscriptions
+          path: template/subscriptions.txt
