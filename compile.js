@@ -1,21 +1,21 @@
 const fs = require('fs');
 
-let subscriptions = "";
+const template = 'template/subscriptions.txt';
 
-const header = fs.readFileSync('header.txt', {encoding:'utf8', flag:'r'});
-
-subscriptions += header;
-subscriptions += "\n";
+fs.writeFileSync(
+    template,
+    fs.readFileSync('header.txt', {encoding:'utf8', flag:'r'}) + "\n"
+);
 
 const files = fs.readdirSync('filters');
 
 files.forEach(file => {
-    const data = fs.readFileSync('filters/' + file, {encoding:'utf8', flag:'r'});
-
-    subscriptions += "!------ filters/" + file + " ------\n";
-    subscriptions += data;
-    subscriptions += "\n";
+    fs.appendFileSync(
+        template,
+        "!------ filters/" + file + " ------\n" +
+        fs.readFileSync('filters/' + file, {encoding:'utf8', flag:'r'}) +
+        "\n"
+    );
 });
 
-fs.writeFileSync('template/subscriptions.txt', subscriptions);
 fs.unlinkSync('template/.gitkeep');
