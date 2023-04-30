@@ -50,7 +50,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        if: steps.check_filter_changed.outputs.filter_changed == 'True'
+        if: steps.check_filter_changed.outputs.filter_changed == 'true'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: template
