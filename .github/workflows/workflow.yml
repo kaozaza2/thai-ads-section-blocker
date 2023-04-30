@@ -1,0 +1,53 @@
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        id: setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Build
+        id: build
+        run: |
+          yarn install
+          yarn run build
+
+      - name: Upload artifact
+        id: upload_artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: subscriptions
+          path: template/subscriptions.txt
+          retention-days: 1
+          if-no-files-found: error
+
+      - name: Check filter changed
+        id: check_filter_changed
+        shell: pwsh
+        run: |
+          $diff = git diff --name-only HEAD^ HEAD
+          $SourceDiff = $diff | Where-Object { $_ -match '^filters/' }
+          $HasChanged = $SourceDiff.Length -gt 0
+          Write-Host "::set-output name=filter_changed::$HasChanged"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        if: steps.check_filter_changed.outputs.filter_changed == 'True'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: template
