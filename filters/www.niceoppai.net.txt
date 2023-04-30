@@ -1,6 +1,12 @@
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
+www.niceoppai.net###text-33
 www.niceoppai.net###text-90
 www.niceoppai.net###sct_top_banner
 www.niceoppai.net##.mng_rdr.wpm_pag>center
 www.niceoppai.net###sct_footer_banner
+www.niceoppai.net##div.textwidget > iframe
+www.niceoppai.net##a[target="_blank"][rel="nofollow"]
+||i0.wp.com/niceoppai.net/wp-content/uploads/**/*.gif$image,domain=www.niceoppai.net
+||www.niceoppai.net/wp-content/uploads/**/*.gif$image,domain=www.niceoppai.net
+
