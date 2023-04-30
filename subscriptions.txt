@@ -128,6 +128,11 @@ www.movie678.com###aaa-banner-left
 www.movie678.com###ccc-banner-left
 www.movie678.com###show_ads_c1
 
+!------ filters/www.nabee-manga.com.txt ------
+www.nabee-manga.com##.header-ads-section
+||www.nabee-manga.com/wp-content/uploads/**/*.gif$image,domain=www.nabee-manga.com
+||1.bp.blogspot.com/**/*.gif$image,domain=www.nabee-manga.com
+
 !------ filters/www.niceoppai.net.txt ------
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
