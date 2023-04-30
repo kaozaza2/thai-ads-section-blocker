@@ -1,0 +1,3 @@
+www.nabee-manga.com##.header-ads-section
+||www.nabee-manga.com/wp-content/uploads/**/*.gif$image,domain=www.nabee-manga.com
+||1.bp.blogspot.com/**/*.gif$image,domain=www.nabee-manga.com
