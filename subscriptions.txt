@@ -130,6 +130,7 @@ www.movie678.com###show_ads_c1
 
 !------ filters/www.nabee-manga.com.txt ------
 www.nabee-manga.com##.header-ads-section
+www.nabee-manga.com##a[target="_blank"] > img
 ||www.nabee-manga.com/wp-content/uploads/**/*.gif$image,domain=www.nabee-manga.com
 ||1.bp.blogspot.com/**/*.gif$image,domain=www.nabee-manga.com
 
