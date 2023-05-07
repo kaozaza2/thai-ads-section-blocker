@@ -54,7 +54,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        if: ${{ steps.check_filter_changed.outputs.filter_changed }}
+        if: github.ref == 'refs/heads/main' && steps.check_filter_changed.outputs.filter_changed
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: template
