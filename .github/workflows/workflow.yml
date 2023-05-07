@@ -42,10 +42,10 @@ jobs:
         id: check_filter_changed
         shell: bash
         run: |
-          has_changed=0
+          has_changed=false
           git diff --name-only HEAD^ HEAD | while read CMD; do
             if [[ $CMD == .filters/* ]]; then
-              has_changed=1
+              has_changed=true
               echo "filter change found."
               break
             fi
@@ -54,7 +54,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        if: ${{ steps.check_filter_changed.outputs.filter_changed }} == 1
+        if: ${{ steps.check_filter_changed.outputs.filter_changed }}
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: template
