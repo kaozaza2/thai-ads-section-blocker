@@ -1,0 +1,2 @@
+www.mangaisekaithai.com##div.ads
+www.mangaisekaithai.com##div:has(>a>img).ads
