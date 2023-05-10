@@ -110,6 +110,10 @@ www.i-moviehd.com###banner_low
 www.i-moviehd.com###ads_fox_bottom
 www.i-moviehd.com###banner-left
 
+!------ filters/www.mangaisekaithai.com.txt ------
+www.mangaisekaithai.com##div.ads
+www.mangaisekaithai.com##div:has(>a>img).ads
+
 !------ filters/www.movie2fin.com.txt ------
 ! 2022-12-28 https://www.movie2fin.com
 www.movie2fin.com##.notice>div
