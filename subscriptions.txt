@@ -59,6 +59,9 @@ doujinza.com###ads_01
 doujinza.com###custom_html-5
 doujinza.com##div.text-center>.col-12
 
+!------ filters/fairyanime.net.txt ------
+fairyanime.net##div#kosana-content
+
 !------ filters/happy-manga.com.txt ------
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
