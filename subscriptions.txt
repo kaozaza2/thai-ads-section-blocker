@@ -66,6 +66,12 @@ fairyanime.net##div#kosana-content
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
 
+!------ filters/manga168.com.txt ------
+! 2024-01-08 https://manga168.com
+manga168.com###ads_fox_bottom
+manga168.com##.kln
+manga168.com##.dessert-frame
+
 !------ filters/movie44.com.txt ------
 movie44.com##.section-top
 movie44.com###light3
