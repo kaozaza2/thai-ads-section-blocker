@@ -129,6 +129,11 @@ www.i-moviehd.com###banner-left
 www.mangaisekaithai.com##div.ads
 www.mangaisekaithai.com##div:has(>a>img).ads
 
+!------ filters/www.manhwabreakup.com.txt ------
+!----- www.manhwabreakup.com -----
+www.manhwabreakup.com##div.ads
+www.manhwabreakup.com##div.ads-float
+
 !------ filters/www.movie2fin.com.txt ------
 ! 2022-12-28 https://www.movie2fin.com
 www.movie2fin.com##.notice>div
