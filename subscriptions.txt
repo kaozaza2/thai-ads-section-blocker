@@ -62,6 +62,12 @@ doujinza.com##div.text-center>.col-12
 !------ filters/fairyanime.net.txt ------
 fairyanime.net##div#kosana-content
 
+!------ filters/germa-66.com.txt ------
+!----- germa-66.com -----
+germa-66.com##div.dessert-frame
+germa-66.com##div.ads
+germa-66.com##div.dessert-frame
+
 !------ filters/happy-manga.com.txt ------
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
