@@ -35,12 +35,20 @@ animehayai.net##.panel-body > .bottom-2x.text-center
 animehayai.net##.banner-close.message
 
 !------ filters/animekimi.com.txt ------
-!------ animekimi.com ------
+!----------- animekimi.com ----------
 animekimi.com###animekimiads1
 animekimi.com###animekimiads2
 animekimi.com###animekimiads3
 animekimi.com###animekimiads4
 animekimi.com###animekimiads5
+
+!----------- animeyuzu.com ----------
+!------ new domain of animikimi -----
+animeyuzu.com###animekimiads1
+animeyuzu.com###animekimiads2
+animeyuzu.com###animekimiads3
+animeyuzu.com###animekimiads4
+animeyuzu.com###animekimiads5
 
 !------ filters/cats-translator.com.txt ------
 !------ cats-translator.com ------
