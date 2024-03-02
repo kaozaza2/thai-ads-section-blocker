@@ -80,6 +80,11 @@ germa-66.com##div.dessert-frame
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
 
+!------ filters/inu-manga.com.txt ------
+!----- inu-manga.com -----
+www.inu-manga.com##.header-ads-section
+inu-manga.com##.header-ads-section
+
 !------ filters/manga168.com.txt ------
 ! 2024-01-08 https://manga168.com
 manga168.com###ads_fox_bottom
