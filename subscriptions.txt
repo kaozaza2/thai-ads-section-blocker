@@ -185,6 +185,9 @@ www.niceoppai.net##a[target="_blank"][rel="nofollow"]
 ||www.niceoppai.net/wp-content/uploads/**/*.gif$image,domain=www.niceoppai.net
 
 
+!------ filters/www.tanuki-manga.com.txt ------
+www.tanuki-manga.com##div.ads
+
 !------ filters/www.thaimanga.net.txt ------
 www.thaimanga.net##div.ads
 
