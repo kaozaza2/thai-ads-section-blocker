@@ -1,0 +1,3 @@
+!----- anime-indy.com -----
+anime-indy.com##.mb-no-p.bg-none.container.a_head
+anime-indy.com##.m-0.row
