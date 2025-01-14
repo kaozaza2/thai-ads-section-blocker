@@ -1,0 +1,3 @@
+!----- wnacg.com -----
+||wnacg.com/game/*/*.gif$image
+||wnacg.com/ds3/*/*/*.gif$image
