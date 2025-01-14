@@ -20,7 +20,8 @@ www.alpha-hen.com###custom_html-8
 !------ filters/anime-indy.com.txt ------
 !----- anime-indy.com -----
 anime-indy.com##.mb-no-p.bg-none.container.a_head
-anime-indy.com##.m-0.row
+anime-indy.com##.d-inline-block.watch-bnn
+anime-indy.com##.py-2.video-content.watch-bnn
 
 !------ filters/anime-kimuchi.com.txt ------
 ! 2022-12-22 https://anime-kimuchi.com
