@@ -154,6 +154,11 @@ www.i-moviehd.com###banner_low
 www.i-moviehd.com###ads_fox_bottom
 www.i-moviehd.com###banner-left
 
+!------ filters/www.javded.com.txt ------
+www.javded.com##center
+www.javded.com##.floating_content
+||rakhuay.com/uploads/*.mp4$media,redirect=noop-1s.mp4
+
 !------ filters/www.mangaisekaithai.com.txt ------
 www.mangaisekaithai.com##div.ads
 www.mangaisekaithai.com##div:has(>a>img).ads
