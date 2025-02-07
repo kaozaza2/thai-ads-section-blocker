@@ -1,0 +1,3 @@
+www.javded.com##center
+www.javded.com##.floating_content
+||rakhuay.com/uploads/*.mp4$media,redirect=noop-1s.mp4
