@@ -1,5 +1,5 @@
 on:
-  push:
+  workflow_dispatch:
     branches:
       - main
 
@@ -38,23 +38,9 @@ jobs:
           retention-days: 1
           if-no-files-found: error
 
-      - name: Check filter changed
-        id: check_filter_changed
-        shell: bash
-        run: |
-          has_changed=false
-          git diff --name-only HEAD^ HEAD | while read CMD; do
-            if [[ $CMD == .filters/* ]]; then
-              has_changed=true
-              echo "filter change found."
-              break
-            fi
-          done
-          echo "filter_changed=$has_changed" >> $GITHUB_OUTPUT
-
       - name: Deploy to GitHub Pages
         id: deployment
-        if: github.ref == 'refs/heads/main' && steps.check_filter_changed.outputs.filter_changed
+        if: github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: template
