@@ -1,0 +1,2 @@
+! Nov 25, 2025 https://kurotoon.com
+kurotoon.com##section:has(a[rel~=nofollow])
