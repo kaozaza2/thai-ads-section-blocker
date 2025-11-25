@@ -1,0 +1,7 @@
+! Nov 17, 2025 https://de88.me
+de88.me##.a-4.a-single
+de88.me###popup
+de88.me###right-popup
+de88.me###left-popup
+de88.me##.a-12.a-single
+de88.me##.a-13.a-single
