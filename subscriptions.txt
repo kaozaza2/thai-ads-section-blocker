@@ -221,6 +221,11 @@ www.tanuki-manga.com##div.ads
 !------ filters/www.thaimanga.net.txt ------
 www.thaimanga.net##div.ads
 
+!------ filters/www.v8-hdd.com.txt ------
+! Nov 17, 2025 https://www.v8-hdd.com
+www.v8-hdd.com##div.clearfix.page_margin_top.page_layout > .row
+www.v8-hdd.com##div.page_margin_top.row-kodsana
+
 !------ filters/www.wasabith.com.txt ------
 !------ www.wasabith.com ------
 www.wasabith.com###cat300_ads2
