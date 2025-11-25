@@ -64,6 +64,15 @@ cats-translator.com###advanced_floating_content_8358
 cats-translator.com###advanced_floating_content_8364
 cats-translator.com###custom_html-33
 
+!------ filters/de88.me.txt ------
+! Nov 17, 2025 https://de88.me
+de88.me##.a-4.a-single
+de88.me###popup
+de88.me###right-popup
+de88.me###left-popup
+de88.me##.a-12.a-single
+de88.me##.a-13.a-single
+
 !------ filters/doujinza.com.txt ------
 !------ doujinza.com ------
 doujinza.com###ads_04
