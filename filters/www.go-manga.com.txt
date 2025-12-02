@@ -1,0 +1,7 @@
+! Dec 2, 2025 https://www.go-manga.com
+www.go-manga.com##.center_gomanga:has(a[rel~=nofollow])
+www.go-manga.com##.center_gomangafixsize:has(a[rel~=nofollow])
+www.go-manga.com##body > div > h1
+www.go-manga.com###sticky-bottom
+www.go-manga.com###sticky-bottom2
+www.go-manga.com###sticky-bottom3
