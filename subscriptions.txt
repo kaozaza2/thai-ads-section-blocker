@@ -146,6 +146,7 @@ movieshdfree.com##a[target="_blank"]
 opuree.com##.text-center.overflow-hidden.box-shadow.rounded.bg-white.p-3.my-3
 opuree.com##.img-fluid
 opuree.com##a[rel="nofollow external"]
+||opuree.com/ads/vast/*.mp4$media,xmlhttprequest,redirect=noopmp4
 
 !------ filters/oremanga.net.txt ------
 ! 2022-12-02 https://www.oremanga.net
