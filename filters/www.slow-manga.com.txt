@@ -1,0 +1,4 @@
+! 18 ธ.ค. 2568 https://www.slow-manga.com
+www.slow-manga.com##.header-ads-section
+||slow-manga.com/*.gif$image
+||image.cdend.com/*.gif$image,domain=slow-manga.com
