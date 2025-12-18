@@ -1,2 +1,5 @@
 miku-doujin.com##center>a[rel="follow"]
 miku-doujin.com##center>a[rel="nofollow"]
+||widgets.amung.us/small.js$script,domain=miku-doujin.com
+miku-doujin.com##[class*="ads-left"]
+miku-doujin.com##[class*="ads-right"]
