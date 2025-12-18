@@ -1,0 +1,7 @@
+! 18 ธ.ค. 2568 https://www.up-manga.com
+www.up-manga.com##div.center_upmanga:has(a)
+www.up-manga.com##div.center_upmangaza:has(a)
+www.up-manga.com##div.center_upmangasolo:has(a)
+www.up-manga.com###sticky-bottom
+www.up-manga.com###sticky-bottom2
+www.up-manga.com###sticky-bottom3
