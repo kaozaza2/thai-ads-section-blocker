@@ -127,6 +127,9 @@ mangakimi.com##.header-ads-section
 !------ filters/miku-doujin.com.txt ------
 miku-doujin.com##center>a[rel="follow"]
 miku-doujin.com##center>a[rel="nofollow"]
+||widgets.amung.us/small.js$script,domain=miku-doujin.com
+miku-doujin.com##[class*="ads-left"]
+miku-doujin.com##[class*="ads-right"]
 
 !------ filters/movie44.com.txt ------
 movie44.com##.section-top
