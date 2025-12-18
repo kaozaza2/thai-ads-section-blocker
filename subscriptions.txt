@@ -113,6 +113,10 @@ inu-manga.com##.header-ads-section
 ! Nov 25, 2025 https://kurotoon.com
 kurotoon.com##section:has(a[rel~=nofollow])
 
+!------ filters/manga-now.com.txt ------
+! 18 ธ.ค. 2568 https://manga-now.com
+manga-now.com##.w-full.border-border.border.shadow.text-card-foreground.bg-card.rounded-xl
+
 !------ filters/manga168.com.txt ------
 ! 2024-01-08 https://manga168.com
 manga168.com###ads_fox_bottom
