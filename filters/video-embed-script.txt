@@ -1,0 +1,3 @@
+||iamcdn.net/player-v2/core.bundle.js$script
+||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/*.js$script
+||stream.matchalatte.club/assets/js/console.js$script
