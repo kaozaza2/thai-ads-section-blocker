@@ -166,6 +166,11 @@ www.oremanga.net##.header-ads-section
 !------ filters/rawkuma.com.txt ------
 ||*$script,domain=amplitudewassnap.com|wz.bergallgenion.com
 
+!------ filters/video-embed-script.txt ------
+||iamcdn.net/player-v2/core.bundle.js$script
+||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/*.js$script
+||stream.matchalatte.club/assets/js/console.js$script
+
 !------ filters/wnacg.com.txt ------
 !----- wnacg.com -----
 ||wnacg.com/game/*/*.gif$image
