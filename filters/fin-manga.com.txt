@@ -1,0 +1,5 @@
+www.fin-manga.com##div.center_finmangaza
+www.fin-manga.com##a.sticky-closs
+www.fin-manga.com###sticky-bottom
+www.fin-manga.com###sticky-bottom2
+www.fin-manga.com###sticky-bottom3
