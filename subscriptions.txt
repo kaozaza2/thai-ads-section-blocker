@@ -94,6 +94,13 @@ doujinza.com##div.text-center>.col-12
 !------ filters/fairyanime.net.txt ------
 fairyanime.net##div#kosana-content
 
+!------ filters/fin-manga.com.txt ------
+www.fin-manga.com##div.center_finmangaza
+www.fin-manga.com##a.sticky-closs
+www.fin-manga.com###sticky-bottom
+www.fin-manga.com###sticky-bottom2
+www.fin-manga.com###sticky-bottom3
+
 !------ filters/germa-66.com.txt ------
 !----- germa-66.com -----
 germa-66.com##div.dessert-frame
