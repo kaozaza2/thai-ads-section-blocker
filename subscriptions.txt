@@ -184,6 +184,11 @@ toonary.com##.w-full:has(>.max-w-4xl>.text-center>p.text-muted-foreground)
 ||iamcdn.net/player-v2/core.bundle.js$script
 ||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/*.js$script
 ||stream.matchalatte.club/assets/js/console.js$script
+||streaming.tonytonychopper.com/assets/js/detector.js$script
+||streaming.tonytonychopper.com/assets/js/custom.js$script
+||anime.tonytonychopper.net/assets/js/console.js$script
+||cdend.com^$domain=fairyanime.net
+||https://streaming.tonytonychopper.com/assets/js/base.js*$script
 
 !------ filters/wnacg.com.txt ------
 !----- wnacg.com -----
