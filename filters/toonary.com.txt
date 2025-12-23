@@ -1,0 +1,5 @@
+! Dec 23, 2025 https://toonary.com
+toonary.com##div:has(> a[rel~="noopener"])
+toonary.com##div.mx-auto.max-w-4xl>div.py-4:has(.text-xs)
+toonary.com##div.min-h-screen>.border-b.py-4:has(>.container)
+toonary.com##.w-full:has(>.max-w-4xl>.text-center>p.text-muted-foreground)
