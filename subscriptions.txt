@@ -173,6 +173,13 @@ www.oremanga.net##.header-ads-section
 !------ filters/rawkuma.com.txt ------
 ||*$script,domain=amplitudewassnap.com|wz.bergallgenion.com
 
+!------ filters/toonary.com.txt ------
+! Dec 23, 2025 https://toonary.com
+toonary.com##div:has(> a[rel~="noopener"])
+toonary.com##div.mx-auto.max-w-4xl>div.py-4:has(.text-xs)
+toonary.com##div.min-h-screen>.border-b.py-4:has(>.container)
+toonary.com##.w-full:has(>.max-w-4xl>.text-center>p.text-muted-foreground)
+
 !------ filters/video-embed-script.txt ------
 ||iamcdn.net/player-v2/core.bundle.js$script
 ||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/*.js$script
