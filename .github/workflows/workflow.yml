@@ -1,44 +1,49 @@
+name: Build & Deploy
+
 on:
   push:
     branches:
       - main
     paths:
-      - 'filters/**'
-      - '.github/workflows/workflow.yml'
-      - 'custom-scripts/**'
+      - filters/**
+      - custom-scripts/**
+      - .github/workflows/workflow.yml
+      - header.txt
+      - compile.py
+
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: "Deploy to GitHub Pages"
+        required: true
+        default: "true"
+        type: choice
+        options:
+          - "true"
+          - "false"
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - name: Checkout
-        id: checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Node
-        id: setup
-        uses: actions/setup-node@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          node-version: '18'
+          python-version: '3.x'
 
-      - name: Build
-        id: build
-        run: |
-          yarn install
-          yarn run build
-          if [ -d custom-scripts ]; then
-            mkdir -p template
-            cp -r custom-scripts template/
-          fi
+      - name: Run compile script
+        run: python compile.py
 
-      - name: Upload artifact
-        id: upload_artifact
+      - name: Upload subscriptions artifact
         uses: actions/upload-artifact@v4
         with:
           name: subscriptions
@@ -47,7 +52,9 @@ jobs:
           if-no-files-found: error
 
       - name: Deploy to GitHub Pages
-        id: deployment
+        if: |
+          github.event_name == 'push' ||
+          github.event.inputs.deploy == 'true'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: template

@@ -1,2 +1,43 @@
-node_modules/
-template/subscriptions.txt
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.venv/
+venv/
+env/
+
+# ===============================
+# Build / Generated output
+# ===============================
+template/
+!template/.gitkeep
+
+# ===============================
+# OS / Editor noise
+# ===============================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# JetBrains
+.idea/
+*.iml
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# GitHub Actions artifacts (local)
+# ===============================
+*.tar.gz
