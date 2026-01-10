@@ -1,33 +1,37 @@
-! Title: Thai Ads Section Blocker
-! Description: Thai ads filters
-! Link: https://github.com/kaozaza2/thai-ads-section-blocker
-! Download: https://kaozaza2.github.io/thai-ads-section-blocker/subscriptions.txt
+! ==================================================================
+! Title:       Thai ads section block list
+! Description: A filter list to block ads sections on Thai websites.
+! Homepage:    https://github.com/kaozaza2/thai-ads-section-blocker
+! Download:    https://kaozaza2.github.io/thai-ads-section-blocker/subscriptions.txt
+! Version:     1.0.0
+! Updated:     2026-01-10 14:36:22 UTC
+! ==================================================================
 !
-!-------------- ads_filters --------------
+! ---------------------- Ads Filters -------------------------------
 
-!------ filters/24-hd.com.txt ------
+!------ filters/24-hd.com ------
 www.24-hd.com##.adcen
 www.24-hd.com##.ad
 www.24-hd.com##.adhl
 www.24-hd.com##.adl
 
-!------ filters/alpha-hen.com.txt ------
+!------ filters/alpha-hen.com ------
 ! 2022-12-22 https://www.alpha-hen.com
 www.alpha-hen.com###custom_html-5
 www.alpha-hen.com###custom_html-7
 www.alpha-hen.com###custom_html-8
 
-!------ filters/anime-indy.com.txt ------
+!------ filters/anime-indy.com ------
 !----- anime-indy.com -----
 anime-indy.com##.mb-no-p.bg-none.container.a_head
 anime-indy.com##.d-inline-block.watch-bnn
 anime-indy.com##.py-2.video-content.watch-bnn
 
-!------ filters/anime-kimuchi.com.txt ------
+!------ filters/anime-kimuchi.com ------
 ! 2022-12-22 https://anime-kimuchi.com
 anime-kimuchi.com##.b-ads
 
-!------ filters/anime-masters.com.txt ------
+!------ filters/anime-masters.com ------
 ! 2022-12-22 https://www.anime-masters.com
 www.anime-masters.com##div#slider-b.banner-close > p
 www.anime-masters.com##div.banner-close
@@ -35,12 +39,12 @@ www.anime-masters.com##center:nth-of-type(4)
 www.anime-masters.com##center:nth-of-type(2)
 www.anime-masters.com##.row > .center_lnwphp
 
-!------ filters/animehayai.net.txt ------
+!------ filters/animehayai.net ------
 animehayai.net##.col-12
 animehayai.net##.panel-body > .bottom-2x.text-center
 animehayai.net##.banner-close.message
 
-!------ filters/animekimi.com.txt ------
+!------ filters/animekimi.com ------
 !----------- animekimi.com ----------
 animekimi.com###animekimiads1
 animekimi.com###animekimiads2
@@ -56,7 +60,7 @@ animeyuzu.com###animekimiads3
 animeyuzu.com###animekimiads4
 animeyuzu.com###animekimiads5
 
-!------ filters/animeruka.com.txt ------
+!------ filters/animeruka.com ------
 ! Nov 24, 2025 https://animeruka.com
 animeruka.com##[href^="https://78900112.vip/Register"] > .animeruka-banner
 animeruka.com##.module_home_x > center
@@ -65,7 +69,7 @@ animeruka.com###box-side-r
 animeruka.com###box-side-l
 animeruka.com###box-footer-fix
 
-!------ filters/cats-translator.com.txt ------
+!------ filters/cats-translator.com ------
 !------ cats-translator.com ------
 cats-translator.com###bottom_center_ads
 cats-translator.com###custom_html-34
@@ -73,7 +77,7 @@ cats-translator.com###advanced_floating_content_8358
 cats-translator.com###advanced_floating_content_8364
 cats-translator.com###custom_html-33
 
-!------ filters/de88.me.txt ------
+!------ filters/de88.me ------
 ! Nov 17, 2025 https://de88.me
 de88.me##.a-4.a-single
 de88.me###popup
@@ -82,7 +86,7 @@ de88.me###left-popup
 de88.me##.a-12.a-single
 de88.me##.a-13.a-single
 
-!------ filters/doujinza.com.txt ------
+!------ filters/doujinza.com ------
 !------ doujinza.com ------
 doujinza.com###ads_04
 doujinza.com###ads_03
@@ -91,58 +95,58 @@ doujinza.com###ads_01
 doujinza.com###custom_html-5
 doujinza.com##div.text-center>.col-12
 
-!------ filters/fairyanime.net.txt ------
+!------ filters/fairyanime.net ------
 fairyanime.net##div#kosana-content
 
-!------ filters/fin-manga.com.txt ------
+!------ filters/fin-manga.com ------
 www.fin-manga.com##div.center_finmangaza
 www.fin-manga.com##a.sticky-closs
 www.fin-manga.com###sticky-bottom
 www.fin-manga.com###sticky-bottom2
 www.fin-manga.com###sticky-bottom3
 
-!------ filters/germa-66.com.txt ------
+!------ filters/germa-66.com ------
 !----- germa-66.com -----
 germa-66.com##div.dessert-frame
 germa-66.com##div.ads
 germa-66.com##div.dessert-frame
 
-!------ filters/happy-manga.com.txt ------
+!------ filters/happy-manga.com ------
 !------ happy-manga.com ------
 happy-manga.com###custom_html-30
 
-!------ filters/inu-manga.com.txt ------
+!------ filters/inu-manga.com ------
 !----- inu-manga.com -----
 www.inu-manga.com##.header-ads-section
 inu-manga.com##.header-ads-section
 
-!------ filters/kurotoon.com.txt ------
+!------ filters/kurotoon.com ------
 ! Nov 25, 2025 https://kurotoon.com
 kurotoon.com##section:has(a[rel~=nofollow])
 
-!------ filters/manga-now.com.txt ------
+!------ filters/manga-now.com ------
 ! 18 ธ.ค. 2568 https://manga-now.com
 manga-now.com##.w-full.border-border.border.shadow.text-card-foreground.bg-card.rounded-xl
 
-!------ filters/manga168.com.txt ------
+!------ filters/manga168.com ------
 ! 2024-01-08 https://manga168.com
 manga168.com###ads_fox_bottom
 manga168.com##.kln
 manga168.com##.dessert-frame
 
-!------ filters/mangakimi.com.txt ------
+!------ filters/mangakimi.com ------
 !----- mangakimi.com -----
 www.mangakimi.com##.header-ads-section
 mangakimi.com##.header-ads-section
 
-!------ filters/miku-doujin.com.txt ------
+!------ filters/miku-doujin.com ------
 miku-doujin.com##center>a[rel="follow"]
 miku-doujin.com##center>a[rel="nofollow"]
 ||widgets.amung.us/small.js$script,domain=miku-doujin.com
 miku-doujin.com##[class*="ads-left"]
 miku-doujin.com##[class*="ads-right"]
 
-!------ filters/movie44.com.txt ------
+!------ filters/movie44.com ------
 movie44.com##.section-top
 movie44.com###light3
 movie44.com###light2
@@ -153,34 +157,34 @@ movie44.com##div[ex-cdn-popup]
 movie44.com###videoWrapper
 ||movie44.com/wp-content/cache/min/1/wp-content/themes/movie44/js/script_movie.js
 
-!------ filters/movieshdfree.com.txt ------
+!------ filters/movieshdfree.com ------
 ! 2022-12-28 https://movieshdfree.com
 movieshdfree.com##.ad
 movieshdfree.com##.ad-float
 movieshdfree.com##a[target="_blank"]
 
-!------ filters/opuree.com.txt ------
+!------ filters/opuree.com ------
 !------ opuree.com ------
 opuree.com##.text-center.overflow-hidden.box-shadow.rounded.bg-white.p-3.my-3
 opuree.com##.img-fluid
 opuree.com##a[rel="nofollow external"]
 ||opuree.com/ads/vast/*.mp4$media,xmlhttprequest,redirect=noopmp4
 
-!------ filters/oremanga.net.txt ------
+!------ filters/oremanga.net ------
 ! 2022-12-02 https://www.oremanga.net
 www.oremanga.net##.header-ads-section
 
-!------ filters/rawkuma.com.txt ------
+!------ filters/rawkuma.com ------
 ||*$script,domain=amplitudewassnap.com|wz.bergallgenion.com
 
-!------ filters/toonary.com.txt ------
+!------ filters/toonary.com ------
 ! Dec 23, 2025 https://toonary.com
 toonary.com##div:has(> a[rel~="noopener"])
 toonary.com##div.mx-auto.max-w-4xl>div.py-4:has(.text-xs)
 toonary.com##div.min-h-screen>.border-b.py-4:has(>.container)
 toonary.com##.w-full:has(>.max-w-4xl>.text-center>p.text-muted-foreground)
 
-!------ filters/video-embed-script.txt ------
+!------ filters/video-embed-script ------
 ||iamcdn.net/player-v2/core.bundle.js$script
 ||cdnjs.cloudflare.com/ajax/libs/fuckadblock/*/*.js$script
 ||stream.matchalatte.club/assets/js/console.js$script
@@ -190,12 +194,12 @@ toonary.com##.w-full:has(>.max-w-4xl>.text-center>p.text-muted-foreground)
 ||cdend.com^$domain=fairyanime.net
 ||https://streaming.tonytonychopper.com/assets/js/base.js*$script
 
-!------ filters/wnacg.com.txt ------
+!------ filters/wnacg.com ------
 !----- wnacg.com -----
 ||wnacg.com/game/*/*.gif$image
 ||wnacg.com/ds3/*/*/*.gif$image
 
-!------ filters/www.037hdmovie.com.txt ------
+!------ filters/www.037hdmovie.com ------
 ! 2022-12-28 https://www.037hdmovie.com
 www.037hdmovie.com###banner-left
 www.037hdmovie.com###ads_fox_bottom
@@ -204,7 +208,7 @@ www.037hdmovie.com##.filmborder>.filmcontent>div[style="text-align: center;"]
 www.037hdmovie.com###sidebar>div[style="text-align: center;"]
 www.037hdmovie.com###sidebar>div:has(>div>div>div>a)
 
-!------ filters/www.go-manga.com.txt ------
+!------ filters/www.go-manga.com ------
 ! Dec 2, 2025 https://www.go-manga.com
 www.go-manga.com##.center_gomanga:has(a[rel~=nofollow])
 www.go-manga.com##.center_gomangafixsize:has(a[rel~=nofollow])
@@ -213,7 +217,7 @@ www.go-manga.com###sticky-bottom
 www.go-manga.com###sticky-bottom2
 www.go-manga.com###sticky-bottom3
 
-!------ filters/www.i-moviehd.com.txt ------
+!------ filters/www.i-moviehd.com ------
 ! 2022-12-28 https://www.i-moviehd.com
 www.i-moviehd.com###banner_top
 www.i-moviehd.com###banner_mid
@@ -221,21 +225,21 @@ www.i-moviehd.com###banner_low
 www.i-moviehd.com###ads_fox_bottom
 www.i-moviehd.com###banner-left
 
-!------ filters/www.javded.com.txt ------
+!------ filters/www.javded.com ------
 www.javded.com##center
 www.javded.com##.floating_content
 ||rakhuay.com/uploads/*.mp4$media,redirect=noop-1s.mp4
 
-!------ filters/www.mangaisekaithai.com.txt ------
+!------ filters/www.mangaisekaithai.com ------
 www.mangaisekaithai.com##div.ads
 www.mangaisekaithai.com##div:has(>a>img).ads
 
-!------ filters/www.manhwabreakup.com.txt ------
+!------ filters/www.manhwabreakup.com ------
 !----- www.manhwabreakup.com -----
 www.manhwabreakup.com##div.ads
 www.manhwabreakup.com##div.ads-float
 
-!------ filters/www.movie2fin.com.txt ------
+!------ filters/www.movie2fin.com ------
 ! 2022-12-28 https://www.movie2fin.com
 www.movie2fin.com##.notice>div
 www.movie2fin.com##.notice>a
@@ -245,7 +249,7 @@ www.movie2fin.com###show_ads_c1
 www.movie2fin.com###ccc-banner-left
 www.movie2fin.com###aaa-banner-left
 
-!------ filters/www.movie678.com.txt ------
+!------ filters/www.movie678.com ------
 www.movie678.com##.notice>div
 www.movie678.com##.notice>a
 www.movie678.com##div:has(>a[target="_new"]).box
@@ -253,13 +257,13 @@ www.movie678.com###aaa-banner-left
 www.movie678.com###ccc-banner-left
 www.movie678.com###show_ads_c1
 
-!------ filters/www.nabee-manga.com.txt ------
+!------ filters/www.nabee-manga.com ------
 www.nabee-manga.com##.header-ads-section
 www.nabee-manga.com##a[target="_blank"] > img
 ||www.nabee-manga.com/wp-content/uploads/**/*.gif$image,domain=www.nabee-manga.com
 ||1.bp.blogspot.com/**/*.gif$image,domain=www.nabee-manga.com
 
-!------ filters/www.niceoppai.net.txt ------
+!------ filters/www.niceoppai.net ------
 !------ www.niceoppai.net ------
 www.niceoppai.net##.widget_text.top_page
 www.niceoppai.net###text-33
@@ -272,20 +276,19 @@ www.niceoppai.net##a[target="_blank"][rel="nofollow"]
 ||i0.wp.com/niceoppai.net/wp-content/uploads/**/*.gif$image,domain=www.niceoppai.net
 ||www.niceoppai.net/wp-content/uploads/**/*.gif$image,domain=www.niceoppai.net
 
-
-!------ filters/www.slow-manga.com.txt ------
+!------ filters/www.slow-manga.com ------
 ! 18 ธ.ค. 2568 https://www.slow-manga.com
 www.slow-manga.com##.header-ads-section
 ||slow-manga.com/*.gif$image
 ||image.cdend.com/*.gif$image,domain=slow-manga.com
 
-!------ filters/www.tanuki-manga.com.txt ------
+!------ filters/www.tanuki-manga.com ------
 www.tanuki-manga.com##div.ads
 
-!------ filters/www.thaimanga.net.txt ------
+!------ filters/www.thaimanga.net ------
 www.thaimanga.net##div.ads
 
-!------ filters/www.up-manga.com.txt ------
+!------ filters/www.up-manga.com ------
 ! 18 ธ.ค. 2568 https://www.up-manga.com
 www.up-manga.com##div.center_upmanga:has(a)
 www.up-manga.com##div.center_upmangaza:has(a)
@@ -294,20 +297,19 @@ www.up-manga.com###sticky-bottom
 www.up-manga.com###sticky-bottom2
 www.up-manga.com###sticky-bottom3
 
-!------ filters/www.v8-hdd.com.txt ------
+!------ filters/www.v8-hdd.com ------
 ! Nov 17, 2025 https://www.v8-hdd.com
 www.v8-hdd.com##div.clearfix.page_margin_top.page_layout > .row
 www.v8-hdd.com##div.page_margin_top.row-kodsana
 
-!------ filters/www.wasabith.com.txt ------
+!------ filters/www.wasabith.com ------
 !------ www.wasabith.com ------
 www.wasabith.com###cat300_ads2
 www.wasabith.com###cat300_ads3
 www.wasabith.com###cat300_ads1
 www.wasabith.com##.mt-2.text-center.col-md-12
 
-!------ filters/หนังออนไลน์.com.txt ------
+!------ filters/หนังออนไลน์.com ------
 ! 2022-12-28 https://xn--72c9aba3d6aqa7a3pmd.com
 xn--72c9aba3d6aqa7a3pmd.com##a[rel="nofollow"]
 xn--72c9aba3d6aqa7a3pmd.com##center
-
